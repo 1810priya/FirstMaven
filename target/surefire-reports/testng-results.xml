@@ -2,12 +2,12 @@
 <testng-results skipped="2" failed="2" ignored="0" total="4" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="1267860" started-at="2017-09-10T11:04:02Z" finished-at="2017-09-10T11:25:10Z">
+  <suite name="Suite" duration-ms="1268066" started-at="2017-09-10T11:39:09Z" finished-at="2017-09-10T12:00:18Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="65259" started-at="2017-09-10T11:04:02Z" finished-at="2017-09-10T11:05:07Z">
+    <test name="Test" duration-ms="37318" started-at="2017-09-10T11:39:09Z" finished-at="2017-09-10T11:39:47Z">
       <class name="com.org.test.FirstMevenProject.Parameter">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.org.test.FirstMevenProject.Parameter@2ed94a8b]" name="beforeTest" is-config="true" duration-ms="44879" started-at="2017-09-10T16:34:02Z" finished-at="2017-09-10T16:34:47Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.org.test.FirstMevenProject.Parameter@2ed94a8b]" name="beforeTest" is-config="true" duration-ms="18097" started-at="2017-09-10T17:09:09Z" finished-at="2017-09-10T17:09:28Z">
           <params>
             <param index="0">
               <value>
@@ -18,29 +18,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="signUp()[pri:1, instance:com.org.test.FirstMevenProject.Parameter@2ed94a8b]" name="signUp" duration-ms="14158" started-at="2017-09-10T16:34:47Z" finished-at="2017-09-10T16:35:01Z">
+        <test-method status="FAIL" signature="signUp()[pri:1, instance:com.org.test.FirstMevenProject.Parameter@2ed94a8b]" name="signUp" duration-ms="13088" started-at="2017-09-10T17:09:28Z" finished-at="2017-09-10T17:09:41Z">
           <exception class="org.openqa.selenium.ElementNotVisibleException">
             <message>
               <![CDATA[element not visible
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 109 milliseconds
+Command duration or timeout: 75 milliseconds
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'SIDD', ip: '192.168.0.9', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_05'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hp\AppData\Local\Temp\scoped_dir3264_29980}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 4d8ab9ae1839a1c3cadaf6718748b260]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hp\AppData\Local\Temp\scoped_dir3252_2288}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e5f2bcd28a294097457e3ccb8a6abcba]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 109 milliseconds
+Command duration or timeout: 75 milliseconds
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'SIDD', ip: '192.168.0.9', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_05'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hp\AppData\Local\Temp\scoped_dir3264_29980}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 4d8ab9ae1839a1c3cadaf6718748b260
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hp\AppData\Local\Temp\scoped_dir3252_2288}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e5f2bcd28a294097457e3ccb8a6abcba
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -78,32 +78,32 @@ Session ID: 4d8ab9ae1839a1c3cadaf6718748b260
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="FAIL" signature="login()[pri:2, instance:com.org.test.FirstMevenProject.Parameter@2ed94a8b]" name="login" duration-ms="5113" started-at="2017-09-10T16:35:01Z" finished-at="2017-09-10T16:35:06Z">
+        <test-method status="FAIL" signature="login()[pri:2, instance:com.org.test.FirstMevenProject.Parameter@2ed94a8b]" name="login" duration-ms="5074" started-at="2017-09-10T17:09:41Z" finished-at="2017-09-10T17:09:46Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"login-mobile"}
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 111 milliseconds
+Command duration or timeout: 71 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'SIDD', ip: '192.168.0.9', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_05'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hp\AppData\Local\Temp\scoped_dir3264_29980}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 4d8ab9ae1839a1c3cadaf6718748b260
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hp\AppData\Local\Temp\scoped_dir3252_2288}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e5f2bcd28a294097457e3ccb8a6abcba
 *** Element info: {Using=id, value=login-mobile}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"login-mobile"}
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 111 milliseconds
+Command duration or timeout: 71 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'SIDD', ip: '192.168.0.9', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_05'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hp\AppData\Local\Temp\scoped_dir3264_29980}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 4d8ab9ae1839a1c3cadaf6718748b260
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hp\AppData\Local\Temp\scoped_dir3252_2288}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e5f2bcd28a294097457e3ccb8a6abcba
 *** Element info: {Using=id, value=login-mobile}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -144,15 +144,15 @@ Session ID: 4d8ab9ae1839a1c3cadaf6718748b260
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.org.test.FirstMevenProject.Parameter@2ed94a8b]" name="afterTest" is-config="true" duration-ms="990" started-at="2017-09-10T16:35:06Z" finished-at="2017-09-10T16:35:07Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.org.test.FirstMevenProject.Parameter@2ed94a8b]" name="afterTest" is-config="true" duration-ms="987" started-at="2017-09-10T17:09:46Z" finished-at="2017-09-10T17:09:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.org.test.FirstMevenProject.Parameter -->
     </test> <!-- Test -->
-    <test name="Test1" duration-ms="1267860" started-at="2017-09-10T11:04:02Z" finished-at="2017-09-10T11:25:10Z">
+    <test name="Test1" duration-ms="1268066" started-at="2017-09-10T11:39:09Z" finished-at="2017-09-10T12:00:18Z">
       <class name="com.org.test.FirstMevenProject.Parameter">
-        <test-method status="FAIL" signature="beforeTest(java.lang.String)[pri:0, instance:com.org.test.FirstMevenProject.Parameter@3567135c]" name="beforeTest" is-config="true" duration-ms="1267840" started-at="2017-09-10T16:34:02Z" finished-at="2017-09-10T16:55:10Z">
+        <test-method status="FAIL" signature="beforeTest(java.lang.String)[pri:0, instance:com.org.test.FirstMevenProject.Parameter@3567135c]" name="beforeTest" is-config="true" duration-ms="1268054" started-at="2017-09-10T17:09:09Z" finished-at="2017-09-10T17:30:18Z">
           <params>
             <param index="0">
               <value>
@@ -197,11 +197,11 @@ remote stacktrace: stack backtrace:
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse$$Lambda$129/587542153.apply(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse$$Lambda$146/375368661.apply(Unknown Source)
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.W3CHandshakeResponse$$Lambda$131/1955356939.apply(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse$$Lambda$148/128426983.apply(Unknown Source)
 	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
-	at org.openqa.selenium.remote.ProtocolHandshake$$Lambda$132/1104425108.apply(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake$$Lambda$149/1969190242.apply(Unknown Source)
 	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
 	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
 	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
@@ -247,7 +247,7 @@ remote stacktrace: stack backtrace:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="signUp()[pri:1, instance:com.org.test.FirstMevenProject.Parameter@3567135c]" name="signUp" duration-ms="0" started-at="2017-09-10T16:55:10Z" finished-at="2017-09-10T16:55:10Z">
+        <test-method status="SKIP" signature="signUp()[pri:1, instance:com.org.test.FirstMevenProject.Parameter@3567135c]" name="signUp" duration-ms="1" started-at="2017-09-10T17:30:18Z" finished-at="2017-09-10T17:30:18Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[connection refused
@@ -285,11 +285,11 @@ remote stacktrace: stack backtrace:
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse$$Lambda$129/587542153.apply(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse$$Lambda$146/375368661.apply(Unknown Source)
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.W3CHandshakeResponse$$Lambda$131/1955356939.apply(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse$$Lambda$148/128426983.apply(Unknown Source)
 	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
-	at org.openqa.selenium.remote.ProtocolHandshake$$Lambda$132/1104425108.apply(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake$$Lambda$149/1969190242.apply(Unknown Source)
 	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
 	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
 	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
@@ -335,7 +335,7 @@ remote stacktrace: stack backtrace:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="SKIP" signature="login()[pri:2, instance:com.org.test.FirstMevenProject.Parameter@3567135c]" name="login" duration-ms="0" started-at="2017-09-10T16:55:10Z" finished-at="2017-09-10T16:55:10Z">
+        <test-method status="SKIP" signature="login()[pri:2, instance:com.org.test.FirstMevenProject.Parameter@3567135c]" name="login" duration-ms="0" started-at="2017-09-10T17:30:18Z" finished-at="2017-09-10T17:30:18Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[connection refused
@@ -373,11 +373,11 @@ remote stacktrace: stack backtrace:
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse$$Lambda$129/587542153.apply(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse$$Lambda$146/375368661.apply(Unknown Source)
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.W3CHandshakeResponse$$Lambda$131/1955356939.apply(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse$$Lambda$148/128426983.apply(Unknown Source)
 	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
-	at org.openqa.selenium.remote.ProtocolHandshake$$Lambda$132/1104425108.apply(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake$$Lambda$149/1969190242.apply(Unknown Source)
 	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
 	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
 	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
@@ -423,7 +423,7 @@ remote stacktrace: stack backtrace:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.org.test.FirstMevenProject.Parameter@3567135c]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-09-10T16:55:10Z" finished-at="2017-09-10T16:55:10Z">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.org.test.FirstMevenProject.Parameter@3567135c]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-09-10T17:30:18Z" finished-at="2017-09-10T17:30:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

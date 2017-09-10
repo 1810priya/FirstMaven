@@ -18,6 +18,7 @@ public class LogInClass
 		System.out.println("Login class");
 	Thread.sleep(5000);
 	driver.findElement(By.id("login-mobile")).sendKeys("Siddhant");
+	driver.findElement(By.id("login-mobile")).sendKeys("Priya");
 	driver.findElement(By.id("login-password")).sendKeys("Siddhant@12345");
 	driver.findElement(By.id("sub_btn")).click();
 	Thread.sleep(5000);
