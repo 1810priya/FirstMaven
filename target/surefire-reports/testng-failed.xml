@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests">
+    <parameter name="siddhant" value="Chrome"/>
+    <classes>
+      <class name="com.org.test.FirstMevenProject.Parameter">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="signUp"/>
+          <include name="login"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.org.test.FirstMevenProject.Parameter -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Test1(failed)" parallel="tests">
+    <parameter name="siddhant" value="Firefox"/>
+    <classes>
+      <class name="com.org.test.FirstMevenProject.Parameter">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="signUp"/>
+          <include name="login"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.org.test.FirstMevenProject.Parameter -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
